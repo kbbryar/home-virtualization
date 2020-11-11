@@ -1,5 +1,5 @@
 <domain type='kvm' id='1'>
-  <name>fedora-linux</name>
+  <name>fedora-linux-test</name>
   <uuid>6c9b47f5-9163-4bb5-90b6-ace2d85a581b</uuid>
   <metadata>
     <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
@@ -9,6 +9,10 @@
   <memory unit='KiB'>4194304</memory>
   <currentMemory unit='KiB'>4194304</currentMemory>
   <vcpu placement='static'>2</vcpu>
+  <cputune>
+    <vcpupin vcpu="0" cpuset="3"/>
+    <vcpupin vcpu="1" cpuset="4"/>
+  </cputune>
   <resource>
     <partition>/machine</partition>
   </resource>

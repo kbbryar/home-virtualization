@@ -1,6 +1,6 @@
 <domain type='kvm' id='1'>
   <name>fedora-linux-test</name>
-  <uuid>6c9b47f5-9163-4bb5-90b6-ace2d85a581b</uuid>
+  <uuid>3c664546-173a-4187-b912-dfabcb2a87c1</uuid>
   <metadata>
     <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
       <libosinfo:os id="http://manjaro.org/manjaro/rolling"/>
